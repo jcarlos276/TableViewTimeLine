@@ -63,17 +63,73 @@
 			isa = PBXGroup;
 			children = (
 				526041A922C80488003AACA7 /* AppDelegate.swift */,
-				526041AB22C80488003AACA7 /* ViewController.swift */,
-				526041AD22C80488003AACA7 /* Main.storyboard */,
-				526041B022C8048A003AACA7 /* Assets.xcassets */,
-				526041B222C8048A003AACA7 /* LaunchScreen.storyboard */,
+				526041C922CA4E05003AACA7 /* Models */,
+				526041C522CA4DAC003AACA7 /* Views */,
+				526041C422CA4D94003AACA7 /* Controllers */,
+				526041C322CA4D78003AACA7 /* Extensions */,
+				526041C822CA4DE7003AACA7 /* Resources */,
 				526041B522C8048A003AACA7 /* Info.plist */,
-				526041BB22C8242D003AACA7 /* TimeLineDateTableViewCell.swift */,
-				526041BD22C82457003AACA7 /* CircleView.swift */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		526041C322CA4D78003AACA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				526041BF22C82D59003AACA7 /* Date + Helpers.swift */,
 				526041C122C82F3B003AACA7 /* String + Helpers.swift */,
 			);
-			path = TimeLine;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		526041C422CA4D94003AACA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				526041AB22C80488003AACA7 /* ViewController.swift */,
+				526041BB22C8242D003AACA7 /* TimeLineDateTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		526041C522CA4DAC003AACA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				526041C722CA4DCB003AACA7 /* UIStoryboards */,
+				526041C622CA4DC6003AACA7 /* UIViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		526041C622CA4DC6003AACA7 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				526041BD22C82457003AACA7 /* CircleView.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		526041C722CA4DCB003AACA7 /* UIStoryboards */ = {
+			isa = PBXGroup;
+			children = (
+				526041B222C8048A003AACA7 /* LaunchScreen.storyboard */,
+				526041AD22C80488003AACA7 /* Main.storyboard */,
+			);
+			path = UIStoryboards;
+			sourceTree = "<group>";
+		};
+		526041C822CA4DE7003AACA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				526041B022C8048A003AACA7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		526041C922CA4E05003AACA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
